@@ -1,0 +1,12 @@
+#计算1-2+3。。。+99中除了88所有数学的总和。
+i=0
+j=-1
+sum=0
+while i<99:
+    i=i+1
+    j=-j
+    if i==88:
+        continue
+    sum=sum+i*j
+print(sum)
+
