@@ -4,9 +4,10 @@ j=-1
 sum=0
 while i<99:
     i=i+1
-    j=-j
     if i==88:
         continue
-    sum=sum+i*j
+    else:
+        j=-j    
+        sum=sum+i*j
 print(sum)
 
